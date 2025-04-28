@@ -6,6 +6,8 @@ Discovery Date: April 2025
 
 Discovered By: xiaoyang
 
+Software Link: https://www.q-cms.cn/
+
 Analysis Report:
 
 QCMS is a PHP-based content management system widely used in Chinese websites. In version 6.0.5, a security flaw exists in the backend template editing function that allows authenticated users to read arbitrary files from the server. The vulnerability stems from insufficient validation of the `Name` parameter in the template editor interface. The parameter is directly concatenated into a file path, allowing attackers to perform directory traversal.
